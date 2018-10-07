@@ -1,5 +1,11 @@
 {
+    "autoload": {
+        "psr-0": {
+            "": "src/"
+        }
+    },
     "require-dev": {
-        "pds/skeleton": "^1.0"
+        "pds/skeleton": "^1.0",
+        "phpunit/phpunit": "^5.2"
     }
 }
