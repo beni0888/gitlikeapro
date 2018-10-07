@@ -36,4 +36,14 @@ class CalculatorTest extends \PHPUnit_Framework_TestCase
 
         $this->assertEquals($expectedResult, $result);
     }
+
+    public function testDivide()
+    {
+        $result = $this->calculator->divide(10, 2);
+        $expectedResult = 5;
+
+        $this->assertEquals($expectedResult, $result);
+    }
+
+
 }
