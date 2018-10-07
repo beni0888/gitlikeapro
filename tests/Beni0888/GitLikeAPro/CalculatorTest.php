@@ -53,4 +53,12 @@ class CalculatorTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals($expectedResult, $result);
     }
 
+    public function testANegativeNumberIsReturnedWhenSubtrahendIsLargerThanMinuend()
+    {
+        $result = $this->calculator->minus(5, 10);
+        $expectedResult = -5;
+
+        $this->assertEquals($expectedResult, $result);
+    }
+
 }
