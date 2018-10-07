@@ -19,4 +19,12 @@ class CalculatorTest extends \PHPUnit_Framework_TestCase
 
         $this->assertEquals($expectedResult, $result);
     }
+
+    public function testMinus()
+    {
+        $result = $this->calculator->minus(1, 1);
+        $expectedResult = 0;
+
+        $this->assertEquals($expectedResult, $result);
+    }
 }
