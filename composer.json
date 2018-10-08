@@ -1,5 +1,6 @@
 {
     "name": "beni0888/gitlikeapro",
+    "description": "Lab exercises for git workshop",
     "autoload": {
         "psr-0": {
             "": "src/"
