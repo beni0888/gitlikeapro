@@ -1,4 +1,5 @@
 {
+    "name": "beni0888/gitlikeapro",
     "autoload": {
         "psr-0": {
             "": "src/"
